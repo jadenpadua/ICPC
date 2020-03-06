@@ -1,6 +1,6 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        maximum = float("inf")
+        maximum = float("-inf")
         i = 0
         j = len(height) - 1
         #While pointers do not overlap
